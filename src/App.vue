@@ -1,6 +1,7 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
+    <router-link to="/contactus">Contact us</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view />
@@ -13,14 +14,17 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: rgb(195, 0, 255);
 }
 
 #nav {
   padding: 30px;
+  background-color: #533f13;
+  
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #ffffff;
 
     &.router-link-exact-active {
       color: #42b983;
