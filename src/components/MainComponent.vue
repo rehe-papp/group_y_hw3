@@ -2,22 +2,28 @@
   <section class="main">
     <button v-on:click="ResetLikes" class="reset">Reset</button>
     Today's news
-    <postcomp v-for= "post in posts" v-bind:key="post.id" v-bind:likes ="post.likes" v-bind:post ="post.post" />
+    <postcomp
+      v-for="post in posts"
+      v-bind:key="post.id"
+      v-bind:likes="post.likes"
+      v-bind:post="post.post"
+    />
   </section>
 </template>
 
 <script>
-import postcomp from './postcomp.vue';
+import postcomp from "./postcomp.vue";
 
 export default {
   name: "main",
-  
+
   data() {
-    return {
-    }
+    return {};
   },
   computed: {
-    posts() { return this.$store.state.posts }
+    posts() {
+      return this.$store.state.posts;
+    },
   },
   methods: {
       ResetLikes : function() {

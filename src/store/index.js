@@ -1,9 +1,9 @@
 import { createStore } from "vuex";
-import Posts from "@/assets/json/posts.json"
+import Posts from "@/assets/json/posts.json";
 
 export default createStore({
   state: {
-    posts: Posts
+    posts: Posts,
   },
   mutations: {
     INCREASE_LIKES: state => {

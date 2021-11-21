@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <img alt="monkee" src="../assets/logo.png" />
-    <MainComponent/>
+    <MainComponent />
   </div>
 </template>
 
@@ -18,8 +18,7 @@ export default {
 </script>
 
 <style scoped>
-  .main > img {
-    height:100px;
-  }
+.main > img {
+  height: 100px;
+}
 </style>
-
