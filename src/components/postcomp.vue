@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="post-header">
+        <div class="post-header" >
             <img v-bind:src="post.profilePic" alt= "lamp1">
             <p>{{post.date}}</p>
         </div>

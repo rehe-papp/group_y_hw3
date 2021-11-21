@@ -1,5 +1,6 @@
 <template>
   <section class="main">
+    <button v-on:click="ResetLikes" class="reset">Reset</button>
     Today's news
     <postcomp v-for= "post in posts" v-bind:key="post.id" v-bind:likes ="post.likes" v-bind:post ="post.post" />
   </section>
@@ -17,6 +18,11 @@ export default {
   },
   computed: {
     posts() { return this.$store.state.posts }
+  },
+  methods: {
+      ResetLikes : function() {
+         this.$store.dispatch("ResetLikesAct")
+      }
   },
   components: { postcomp },
 };
@@ -37,5 +43,10 @@ export default {
       margin: 10px;
       background-color: rgb(207, 123, 193);
       box-shadow: 5px  10px 10px #888888;
+  }
+
+  .reset {
+    background-color: #00ffff;
+    margin: auto;
   }
 </style>
