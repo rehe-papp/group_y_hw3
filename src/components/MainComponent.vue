@@ -1,7 +1,7 @@
 <template>
   <section class="main">
     Today's news
-    <postcomp v-for= "post in posts" v-bind:key="post.id" v-bind:post ="post.post" />
+    <postcomp v-for= "post in posts" v-bind:key="post.id" v-bind:likes ="post.likes" v-bind:post ="post.post" />
   </section>
 </template>
 

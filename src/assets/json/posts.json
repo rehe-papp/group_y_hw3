@@ -1,0 +1,100 @@
+[{
+    "id": 1, "likes": 0, "post": {
+        "author": "Anon",
+        "date": "14.03.2021",
+        "profilePic": "../assets/face_icon.jpg",
+        "title": "Sator rotas",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+        "image": "../assets/monkee1.jpg"
+    }
+},
+{
+    "id": 2, "likes": 0, "post": {
+        "author": "Anon",
+        "date": "15.03.2021",
+        "profilePic": "../assets/face_icon.jpg",
+        "title": "Tenet",
+        "body": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "../assets/monkee2.jpg"
+    }
+},
+{   
+    "id": 3, "likes": 0, "post": {
+        "author": "Donkey Kong",
+        "date": "10.10.2002",
+        "profilePic": "../assets/donkey_kong_profile.jpg",
+        "title": "Banana slamma!!",
+        "body": "My bananas and my buddy, Diddy, they are gone! The Kremlings will pay! I'll hunt them down through every corner of my island, until I have every last banana from my hoard back!",
+        "image": "../assets/donkey_kong_angry.jpg"
+    }
+},
+{
+    "id": 4, "likes": 0, "post": {
+        "author": "Abu",
+        "date": "17.11.1992",
+        "profilePic": "../assets/abu_profile.jpg",
+        "title": "Lamp",
+        "body": "Hey, look at this lamp I found.",
+        "image": "../assets/abu_lamp.jpg"
+    }
+},
+{
+    "id": 5, "likes": 0, "post": {
+        "author": "Curious George",
+        "date": "25.09.2012",
+        "profilePic": "../assets/curious_george_profile.jpg",
+        "title": "Marine George",
+        "body": "What the frick did you just fricking say about me, you little beach? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the frick out with precision the likes of which has never been seen before on this Earth, mark my fricking words. You think you can get away with saying that sh*t to me over the Internet? Think again, fricker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You're fricking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that's just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little sh*t. If only you could have known what unholy retribution your little 'clever' comment was about to bring down upon you, maybe you would have held your fricking tongue. But you couldn't, you didn't, and now you're paying the price, you goddamn idiot. I will sh*t fury all over you and you will drown in it. You're fricking dead, kiddo.",
+        "image": "../assets/curious_george_marine.jpg"
+    }
+},
+{
+    "id": 6, "likes": 0, "post": {
+        "author": "Harambe",
+        "date": "28.05.2016",
+        "profilePic": "../assets/harambe_profile.jpg",
+        "title": "From the zoo",
+        "body": "I'm Harambe, and this is my zoo enclosure. I work here with my zoo keeper and my friend, cecil the lion. Everything in here has a story and a price. One thing I've learned after 21 years - you never know WHO is gonna come over that fence.",
+        "image": "../assets/harambe.jpg"
+    }
+},
+{
+    "id": 7, "likes": 0, "post": {
+        "author": "Kong",
+        "date": "12.12.1933",
+        "profilePic": "../assets/king_kong_profile.jpg",
+        "title": "Empire State Building",
+        "body": "Yo, check out this building!",
+        "image": "../assets/king_kong_climb.jpg"
+    }
+},
+{
+    "id": 8, "likes": 0, "post": {
+        "author": "Sun Wukong",
+        "date": "07.06.2019",
+        "profilePic": "../assets/monkey_king_profile.png",
+        "title": "I have arrived",
+        "body": "These guys aren't gonna know what hit them.",
+        "image": "../assets/monkey_king_arrival.jpg"
+    }
+},
+{
+    "id": 9, "likes": 0, "post": {
+        "author": "Anon",
+        "date": "17.02.2013",
+        "profilePic": "../assets/face_icon.jpg",
+        "title": "Cute monkey",
+        "body": "It's sooooooooo cute <3",
+        "image": "../assets/monkee3.jpg"
+    }
+},
+{
+    "id": 10, "likes": 0, "post": {
+        "author": "Anon",
+        "date": "17.02.2013",
+        "profilePic": "../assets/face_icon.jpg",
+        "title": "An even cuter monkey",
+        "body": "This one's even cuter.",
+        "image": "../assets/monkee4.jpg"
+    }
+}]
