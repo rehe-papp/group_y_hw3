@@ -1,10 +1,12 @@
 <template>
   <div>
     <div class="post-header">
-      <img v-bind:src="require(`../assets/${post.profilePic}`)" alt="lamp1" />
+      <img v-bind:src="require(`../assets/${post.profilePic}`)" alt="profilePicture" />
+      <h4>{{post.author}}</h4>
       <p>{{ post.date }}</p>
     </div>
-    <img :src="require(`../assets/${post.image}`)" alt="lamp2" />
+    <h1>{{post.title}}</h1>
+    <img :src="require(`../assets/${post.image}`)" alt="postPicture" />
     <p>{{ post.body }}</p>
     <button v-on:click="IncreaseLikes" class="like-button">
       <img class="like-button-img" src="../assets/like.png" alt="like" />
@@ -63,6 +65,17 @@ div ~ img {
 img + p {
   font-weight: bold;
   color: black;
+}
+
+img + h4 {
+  color: white;
+  float: left;
+  text-align: center;
+}
+
+div ~ h1 {
+  color: white;
+  text-align: left;
 }
 
 div ~ p {
