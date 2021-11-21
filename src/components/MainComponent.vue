@@ -1,7 +1,7 @@
 <template>
   <section class="main">
     Today's news
-    <postcomp/>
+    <postcomp v-for= "post in posts" v-bind:key="post.id" v-bind:post ="post.post" />
   </section>
 </template>
 
@@ -10,6 +10,14 @@ import postcomp from './postcomp.vue';
 
 export default {
   name: "main",
+  
+  data() {
+    return {
+    }
+  },
+  computed: {
+    posts() { return this.$store.state.posts }
+  },
   components: { postcomp },
 };
 </script>

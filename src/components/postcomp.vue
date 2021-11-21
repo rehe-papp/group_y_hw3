@@ -1,18 +1,19 @@
 <template>
     <div>
         <div class="post-header">
-            <img src="../assets/harambe_profile.jpg" alt= "lamp1">
-            <p>15.03.2021</p>
+            <img v-bind:src="post.profilePic" alt= "lamp1">
+            <p>{{post.date}}</p>
         </div>
-        <img src="../assets/harambe.jpg" alt="lamp2">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+        <img v-bind:src="post.image" alt="lamp2">
+        <p>{{post.body}}</p>
         <button class="like-button"><img class = "like-button-img" src="../assets/like.jpg" alt="like"></button>
     </div>
 </template>
 
 <script>
 export default {
-    name: "postcomp"
+    name: "postcomp",
+    props: ["id", "post"]
 }
 </script>
 
