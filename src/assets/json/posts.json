@@ -82,19 +82,19 @@
     "id": 9, "likes": 0, "post": {
         "author": "Anon",
         "date": "17.02.2013",
-        "profilePic": "face_icon.jpg",
-        "title": "Cute monkey",
-        "body": "It's sooooooooo cute <3",
-        "image": "monkee3.jpg"
+        "profilePic": "cute_profile.jpg",
+        "title": "MonkaS",
+        "body": "Unbothered. Moisturized. Happy. In my own lane. Focused. Flourishing.",
+        "image": "monke_king.jpeg"
     }
 },
 {
     "id": 10, "likes": 0, "post": {
-        "author": "Anon",
+        "author": "WSB admin",
         "date": "17.02.2013",
-        "profilePic": "face_icon.jpg",
-        "title": "An even cuter monkey",
-        "body": "This one's even cuter.",
-        "image": "monkee4.jpg"
+        "profilePic": "wsb_monkee.jpg",
+        "title": "day trader monkey",
+        "body": "ok I need bitcoin PRICE TO GO UP. I cant take this anymore. every day I am checking price and its dipping. every day, check price, bad price. I cant take this anymore, I have over invested, by a lot. it is what it is. but I need price to GO UP ALREADY. can devs DO SOMETHING",
+        "image": "trader_ape.jpg"
     }
 }]
