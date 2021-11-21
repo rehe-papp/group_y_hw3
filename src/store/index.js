@@ -1,21 +1,22 @@
 import { createStore } from "vuex";
-import Posts from "@/assets/json/posts.json"
+import Posts from "@/assets/json/posts.json";
 
 export default createStore({
   state: {
-    posts: Posts
+    posts: Posts,
   },
   mutations: {
-    INCREASE_LIKES: state => {
-      state.posts.forEach( post  => {
-          post.likes += 1;
-      })
-    }
+    INCREASE_LIKES: (state) => {
+      state.posts.forEach((post) => {
+        post.likes += 1;
+      });
+    },
   },
-  actions: {IncreaseLikesAct: act => {
-    setTimeout(function() {
-    act.commit("INCREASE_LIKES")
-    }, 500)
+  actions: {
+    IncreaseLikesAct: (act) => {
+      setTimeout(function () {
+        act.commit("INCREASE_LIKES");
+      }, 500);
     },
   },
   modules: {},
