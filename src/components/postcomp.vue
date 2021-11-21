@@ -1,15 +1,14 @@
 <template>
   <div>
     <div class="post-header">
-      <img v-bind:src="post.profilePic" alt="lamp1" />
+      <img v-bind:src="require(`../assets/${post.profilePic}`)" alt="lamp1" />
       <p>{{ post.date }}</p>
     </div>
-    <img v-bind:src="post.image" alt="lamp2" />
+    <img :src="require(`../assets/${post.image}`)" alt="lamp2" />
     <p>{{ post.body }}</p>
     <button v-on:click="IncreaseLikes" class="like-button">
       <img class="like-button-img" src="../assets/like.png" alt="like" />
     </button>
-
     <p>{{ likes }}</p>
   </div>
 </template>
@@ -23,6 +22,7 @@ export default {
       this.$store.dispatch("IncreaseLikesAct");
     },
   },
+  
 };
 </script>
 
