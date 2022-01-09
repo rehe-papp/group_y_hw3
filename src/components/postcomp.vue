@@ -1,14 +1,14 @@
 <template>
   <div>
     <div class="post-header">
-      <img v-bind:src="require(`../assets/${post.profilePic}`)" alt="profilePicture" />
-      <h4>{{post.author}}</h4>
-      <p>{{ post.date }}</p>
+      <img v-bind:src="require(`../assets/${postInfo.profilePic}`)" alt="profilePicture" />
+      <h4>{{postInfo.author}}</h4>
+      <p>{{ postInfo.date }}</p>
     </div>
-    <h1>{{post.title}}</h1>
-    <img :src="require(`../assets/${post.image}`)" alt="postPicture" />
-    <p>{{ post.body }}</p>
-    <button v-on:click="IncreaseLikes" class="like-button">
+    <h1>{{postInfo.title}}</h1>
+    <img :src="require(`../assets/${postInfo.image}`)" alt="postPicture" />
+    <p>{{ postInfo.body }}</p>
+    <button v-on:click="IncreaseLikes(post.id)" class="like-button">
       <img class="like-button-img" src="../assets/like.png" alt="like" />
     </button>
     <p>{{ likes }}</p>
@@ -18,10 +18,10 @@
 <script>
 export default {
   name: "postcomp",
-  props: ["id", "likes", "post"],
+  props: ["post","likes", "postInfo"],
   methods: {
-    IncreaseLikes: function () {
-      this.$store.dispatch("IncreaseLikesAct");
+    IncreaseLikes(id) {
+      this.$store.dispatch("IncreaseLikesAct", id);
     },
   },
   

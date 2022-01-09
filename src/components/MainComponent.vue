@@ -4,9 +4,10 @@
     Today's news
     <postcomp
       v-for="post in posts"
+      v-bind:post="post"
       v-bind:key="post.id"
       v-bind:likes="post.likes"
-      v-bind:post="post.post"
+      v-bind:postInfo="post.post"
     />
   </section>
 </template>
